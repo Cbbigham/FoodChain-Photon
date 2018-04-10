@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChainRepo", "FoodChainRepo.csproj", "{07F7150A-DEB4-002E-796F-4FBF24EFD8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChainRepo.Plugins", "FoodChainRepo.Plugins.csproj", "{FB069731-835D-7024-69CF-58D5EA3CB5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChainRepo.Editor.Plugins", "FoodChainRepo.Editor.Plugins.csproj", "{421B5A46-EA78-34EB-588A-A35EEC7101B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChainRepo.Editor", "FoodChainRepo.Editor.csproj", "{415FB820-AC00-5CBE-7C09-6607DE14DEBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07F7150A-DEB4-002E-796F-4FBF24EFD8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F7150A-DEB4-002E-796F-4FBF24EFD8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F7150A-DEB4-002E-796F-4FBF24EFD8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F7150A-DEB4-002E-796F-4FBF24EFD8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB069731-835D-7024-69CF-58D5EA3CB5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB069731-835D-7024-69CF-58D5EA3CB5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB069731-835D-7024-69CF-58D5EA3CB5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB069731-835D-7024-69CF-58D5EA3CB5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421B5A46-EA78-34EB-588A-A35EEC7101B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421B5A46-EA78-34EB-588A-A35EEC7101B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421B5A46-EA78-34EB-588A-A35EEC7101B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421B5A46-EA78-34EB-588A-A35EEC7101B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415FB820-AC00-5CBE-7C09-6607DE14DEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415FB820-AC00-5CBE-7C09-6607DE14DEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415FB820-AC00-5CBE-7C09-6607DE14DEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415FB820-AC00-5CBE-7C09-6607DE14DEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
