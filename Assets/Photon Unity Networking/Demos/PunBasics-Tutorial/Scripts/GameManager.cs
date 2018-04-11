@@ -136,7 +136,6 @@ namespace ExitGames.Demos.DemoAnimator
 			SceneManager.LoadScene("PunBasics-Launcher");
 		}
 
-
 		#endregion
 
 		#region Public Methods

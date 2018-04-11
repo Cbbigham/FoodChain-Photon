@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChain-Photon", "FoodChain-Photon.csproj", "{054DC683-68E0-01AF-ADDC-6578C6252A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChain-Photon.Plugins", "FoodChain-Photon.Plugins.csproj", "{D135B72F-E64E-BCBA-7501-4F5DF120CB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChain-Photon.Editor.Plugins", "FoodChain-Photon.Editor.Plugins.csproj", "{096FDC5B-CBEE-CE9A-5213-8C81A17FD9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodChain-Photon.Editor", "FoodChain-Photon.Editor.csproj", "{97B31835-0D8E-D41D-E0E8-5882BF08FFE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{054DC683-68E0-01AF-ADDC-6578C6252A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054DC683-68E0-01AF-ADDC-6578C6252A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054DC683-68E0-01AF-ADDC-6578C6252A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054DC683-68E0-01AF-ADDC-6578C6252A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D135B72F-E64E-BCBA-7501-4F5DF120CB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D135B72F-E64E-BCBA-7501-4F5DF120CB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D135B72F-E64E-BCBA-7501-4F5DF120CB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D135B72F-E64E-BCBA-7501-4F5DF120CB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096FDC5B-CBEE-CE9A-5213-8C81A17FD9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096FDC5B-CBEE-CE9A-5213-8C81A17FD9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096FDC5B-CBEE-CE9A-5213-8C81A17FD9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096FDC5B-CBEE-CE9A-5213-8C81A17FD9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B31835-0D8E-D41D-E0E8-5882BF08FFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B31835-0D8E-D41D-E0E8-5882BF08FFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B31835-0D8E-D41D-E0E8-5882BF08FFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B31835-0D8E-D41D-E0E8-5882BF08FFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -52,7 +52,7 @@ public class SetupLocalPlayer : Photon.PunBehaviour, IPunObservable {
     {
         PhotonNetwork.sendRate = 20;
         PhotonNetwork.sendRateOnSerialize = 10;
-
+        pName = PhotonNetwork.playerName;
     }
     void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
@@ -87,7 +87,7 @@ public class SetupLocalPlayer : Photon.PunBehaviour, IPunObservable {
 
         }
 
-        PlayerName.text = photonView.owner.NickName;
+        PlayerName.text = PhotonNetwork.playerName;
 
     }
     public void Init(string playerName) {

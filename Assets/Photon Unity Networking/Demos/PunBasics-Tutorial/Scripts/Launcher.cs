@@ -61,7 +61,7 @@ namespace Fintrigue
         /// </summary>
         void Start()
         {
-           // Connect();
+            // Connect();
         }
 
 
@@ -82,13 +82,13 @@ namespace Fintrigue
             isConnecting = true;
 
             ConnectingMenu.SetActive(true);
+            PhotonNetwork.playerName = PlayerName.textComponent.text;
 
             // we check if we are connected or not, we join if we are , else we initiate the connection to the server.
             if (PhotonNetwork.connected)
             {
                 // #Critical we need at this point to attempt joining a Random Room. If it fails, we'll get notified in OnPhotonRandomJoinFailed() and we'll create one.
                 PhotonNetwork.JoinRandomRoom();
-      
             }
             else
             {
@@ -133,8 +133,7 @@ namespace Fintrigue
         {
             Debug.Log("DemoAnimator/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
             // #Critical: We only load if we are the first player, else we rely on  PhotonNetwork.automaticallySyncScene to sync our instance scene.
-            Debug.Log(PlayerName.text);
-            PhotonNetwork.player.NickName = PlayerName.text;
+            Debug.Log(PlayerName.textComponent.text);
 
             if (PhotonNetwork.room.PlayerCount == 1)
             {

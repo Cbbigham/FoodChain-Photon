@@ -40,7 +40,10 @@ namespace Fintrigue
         public override void OnPhotonPlayerConnected(PhotonPlayer other)
         {
             Debug.Log("OnPhotonPlayerConnected() " + other.NickName); // not seen if you're the player connecting
-
+            if (PlayerMaster.instance != null)
+            {
+                PlayerMaster.instance.CheckForRoomFill();
+            }
 
             if (PhotonNetwork.isMasterClient)
             {
